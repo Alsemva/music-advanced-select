@@ -1,0 +1,163 @@
+INSERT INTO musician 
+VALUES
+(1, 'Nightwish'),
+(2, 'Дидюля'),
+(3, 'Imagine Dragons'),
+(4, 'Sia'),
+(5, 'David Garrett'),
+(6, 'Scorpions'),
+(7, 'Inna'),
+(8, 'Filatov & Karas'),
+(9, 'Helene Fischer'),
+(10, 'Sofi Tukker')
+
+INSERT INTO music_genre 
+VALUES
+(1, 'Cимфоник-метал'),
+(2, 'Нью-эйдж'),
+(3, 'Инди-поп'),
+(4, 'Классический кроссовер'),
+(5, 'Хард-рок'),
+(6, 'Хаус'),
+(7, 'Поп'),
+(8, 'EDM')
+
+INSERT INTO musician_genre 
+VALUES
+(1, 1),
+(2, 2),
+(3, 3),
+(4, 3),
+(4, 7),
+(5, 4),
+(6, 5),
+(7, 6),
+(7, 8),
+(8, 6),
+(9, 7),
+(10, 6),
+(10, 8)
+
+INSERT INTO album 
+VALUES
+(1, 'Imaginaerum', '2011-11-30'),
+(2, 'Dark Passion Play', '2007-09-26'),
+(3, 'Wishmaster', '2000-05-08'),
+(4, 'Once', '2004-06-07'),
+(5, 'Oceanborn', '1998-12-07'),
+(6, 'Дорога в Багдад', '2002-04-10'),
+(7, 'Фламенко', '2000-06-17'),
+(8, 'Evolve', '2017-06-23'),
+(9, 'Origins', '2019-01-01'),
+(10, 'Mercury', '2021-09-03'),
+(11, 'This Is Acting', '2016-01-29'),
+(12, 'Unlimited - Greatest Hits', '2018-01-01'),
+(13, 'Unbreakable', '2004-05-03'),
+(14, 'Wind of Chang', '1991-01-01'),
+(15, 'Single', '2021-10-22'),
+(16, 'Warner Music Russia', '2020-12-31'),
+(17, 'Warner Russia', '2017-01-01'),
+(18, 'Vamos a Marte', '2021-08-06'),
+(19, 'Single', '2022-01-01'),
+(20, 'Soft Animals EP', '2016-01-01')
+
+INSERT INTO album_musician 
+VALUES
+(1, 1),
+(1, 2),
+(1, 3),
+(1, 4),
+(1, 5),
+(2, 6),
+(2, 7),
+(3, 8),
+(3, 9),
+(3, 10),
+(4, 11),
+(5, 12),
+(6, 13),
+(6, 14),
+(7, 15),
+(8, 16),
+(8, 17),
+(9, 18),
+(10, 19),
+(10, 20)
+
+INSERT INTO track 
+values
+(1, 'Storytime', 328, 1),
+(2, 'Last of the Wilds', 340, 2),
+(3, 'She Is My Sin', 286, 3),
+(4, 'Wish I Had an Angel', 246, 4),
+(5, 'Nemo', 276, 4),
+(6, 'Passion And The Opera', 290, 5),
+(7, 'Sleeping Sun', 245, 5),
+(8, 'Арабика', 335, 6),
+(9, 'Айседора', 248, 7),
+(10, 'Румба', 345, 7),
+(11, 'Thunder', 187, 8),
+(12, 'Natural', 189, 9),
+(13, 'Bones', 166, 10),
+(14, 'Cheap Thrills', 210, 11),
+(15, 'Unstoppable', 217, 11),
+(16, 'He is a Pirate', 181, 12),
+(17, 'Viva La Vida', 255, 12),
+(18, 'Maybe I Maybe You', 210, 13),
+(19, 'Wind of Change', 310, 14),
+(20, 'UP', 150, 15),
+(21, 'Au Revoir', 164, 16),
+(22, 'Остаться с тобой', 190, 17),
+(23, 'Vamos a Marte', 203, 18),
+(24, 'Forgive Me', 225, 19),
+(25, 'Awoo', 196, 20),
+(26, 'Полёт на Меркурий', 341, 6)
+
+INSERT INTO collection  
+VALUES 
+(1, 'The Best From The West', '2018-01-01'),
+(2, 'The Best Popular Music', '2022-01-01'),
+(3, 'Rock Music Collection', '2021-01-01'),
+(4, 'Dance Music Collection', '2021-01-01'),
+(5, 'Electronic Music', '2022-01-01'),
+(6, 'Дидюдя Лучшее', '2015-01-01'),
+(7, 'Nightwish Collection', '2017-01-01'),
+(8, 'Instrumental Music', '2019-01-01')
+
+INSERT INTO collection_list 
+VALUES
+(1, 11),
+(1, 12),
+(1, 13),
+(1, 23),
+(2, 11),
+(2, 15),
+(2, 21),
+(2, 22),
+(2, 24),
+(3, 1),
+(3, 5),
+(3, 6),
+(3, 18),
+(3, 19),
+(4, 20),
+(4, 21),
+(4, 22),
+(4, 23),
+(5, 20),
+(5, 21),
+(5, 25),
+(6, 8),
+(6, 9),
+(6, 10),
+(7, 1),
+(7, 2),
+(7, 3),
+(7, 4),
+(7, 5),
+(7, 6),
+(7, 7),
+(8, 9),
+(8, 10),
+(8, 16),
+(8, 17)
